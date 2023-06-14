@@ -17,7 +17,7 @@ const db = new sqlite3.Database(dbPath, (err) => {
       namaBarang TEXT,
       harga INTEGER,
       quantity INTEGER,
-      tanggaL DATETIME
+      tanggal DATETIME
     )`);
 
     db.run(`CREATE TABLE IF NOT EXISTS keranjang (

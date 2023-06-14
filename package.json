@@ -15,6 +15,5 @@
     "nodemon": "^2.0.22",
     "sqlite3": "^5.1.6"
   },
-  "devDependencies": {},
   "description": ""
 }
